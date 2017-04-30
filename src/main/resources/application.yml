@@ -1,0 +1,18 @@
+influxdb:
+  nozzle:
+    #api-host: ${cc.host}
+    api-host: https://api.local.pcfdev.io
+    client-id: insysradmin
+    client-secret: insysradmin-secret
+    skip-ssl-validation: true
+    organization: pcfdev-org
+    space: pcfdev-space
+    admin-client-id: admin
+    admin-client-secret: admin-client-secret
+
+endpoints:
+  sensitive: false
+
+logging:
+    level:
+        com.insys: DEBUG
